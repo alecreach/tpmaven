@@ -54,17 +54,12 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-changelog-plugin</artifactId>
 			</plugin>
-
-
-
 		</plugins>
 	</reporting>
 
 	<scm>
-
-		<connection>scm:svn:svn://git/repository1/monappli-web</connection>
-		<url>http://IPSERVEUR/svn/monappli-web</url>
-
+		<connection>scm:git:git://github.com/alecreach/tpmaven.git</connection>
+		<url>http://github.com/alecreach/tpmaven</url>
 	</scm>
 
 </project>
